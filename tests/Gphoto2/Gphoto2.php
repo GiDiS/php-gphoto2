@@ -1,12 +1,12 @@
 <?php
 
-require '../../../library/Zee/Gphoto2/Wrapper.php';
+require '../../library/Gphoto2/Gphoto2.php';
 
-$wrapper = new \Zee\Gphoto2\Wrapper;
+$gphoto = new \Gphoto2\Gphoto2;
 
-var_dump($wrapper->getExecutable());
-#var_dump($wrapper->listCameras());
-#var_dump($wrapper->listPorts());
-#var_dump($wrapper->autoDetect());
-#var_dump($wrapper->listConfig());
-var_dump($wrapper->listAllConfig());
+var_dump($gphoto->getExecutable());
+#var_dump($gphoto->listCameras());
+#var_dump($gphoto->listPorts());
+#var_dump($gphoto->autoDetect());
+#var_dump($gphoto->listConfig());
+var_dump($gphoto->listAllConfig());
