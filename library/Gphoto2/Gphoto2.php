@@ -2,7 +2,7 @@
 
 namespace Zee\Gphoto2;
 
-class Wrapper
+class Gphoto2
 {
     private $executable = null;
     
